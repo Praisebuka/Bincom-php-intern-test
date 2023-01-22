@@ -15,10 +15,11 @@ return new class extends Migration
     {
         Schema::create('agentname', function (Blueprint $table) {
             $table->id('name_id')->int(11);
-            $table->string('firstname');
-            $table->string('lastname');
-            $table->string('email');
-            $table->int('phone');
+            $table->string('firstname')->varchar(255);
+            $table->string('lastname')->varchar(255);
+            $table->string('email')->varchar(255);
+            $table->int('phone')->char(13);
+            $table->int('pollingunit_uniqueid') ->int(11);
         });
     }
 
