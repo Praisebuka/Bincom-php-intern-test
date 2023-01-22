@@ -2,6 +2,6 @@
             
 <h1>Bincomphptest</h1><b>
 
-<p>This app was created for an online Internship test hosted by <a href="bincom.net" target="_blank">Bincom ICT Solutions</a>.</p><br>
+<p>This app was created for an online Internship test hosted by <a href="blog/bincom.net" target="_blank">Bincom ICT Solutions</a>.</p><br>
 
 
