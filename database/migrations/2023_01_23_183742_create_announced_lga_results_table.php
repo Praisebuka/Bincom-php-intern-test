@@ -13,13 +13,9 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('agentnames', function (Blueprint $table) {
-            $table->increments('name_id');
-            $table->string('firstname');
-            $table->string('lastname');
-            $table->string('email');
-            $table->integer('phone');
-            $table->integer('pollingunit_uniqueid');
+        Schema::create('announced_lga_results', function (Blueprint $table) {
+            $table->id();
+            $table->timestamps();
         });
     }
 
@@ -30,6 +26,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('agentnames');
+        Schema::dropIfExists('announced_lga_results');
     }
 };
