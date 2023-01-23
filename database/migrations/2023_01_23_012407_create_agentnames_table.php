@@ -13,13 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('agentname', function (Blueprint $table) {
-            $table->id('name_id')->int(11);
-            $table->string('firstname')->varchar(255);
-            $table->string('lastname')->varchar(255);
-            $table->string('email')->varchar(255);
+        Schema::create('agentnames', function (Blueprint $table) {
+            $table->increments('name_id');
+            $table->string('firstname');
+            $table->string('lastname');
+            $table->string('email');
             $table->int('phone')->char(13);
-            $table->int('pollingunit_uniqueid') ->int(11);
+            $table->increments('pollingunit_uniqueid') ->int(11);
         });
     }
 
@@ -30,6 +30,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('agentname');
+        Schema::dropIfExists('agentnames');
     }
 };

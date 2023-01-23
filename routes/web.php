@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\agentNameController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+//Making the routes for the agent's names.
+Route::get('/agents', [agentNameController::class, 'index']);
+
+
 
 Route::get('/', function () {
     return view('welcome');
