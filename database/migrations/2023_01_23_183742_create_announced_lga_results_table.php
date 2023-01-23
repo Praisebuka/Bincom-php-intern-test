@@ -14,8 +14,13 @@ return new class extends Migration
     public function up()
     {
         Schema::create('announced_lga_results', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->increments('result_id');
+            $table->string('lga_name');
+            $table->char('party_abbreviation');
+            $table->integer('party_score');
+            $table->string('entered_by_user');
+            $table->dateTime('date_entered');
+            $table->string('user_ip_address');
         });
     }
 
