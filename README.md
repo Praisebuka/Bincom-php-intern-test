@@ -8,7 +8,7 @@
 <p>This app was created for an online Internship test hosted by <a href="blog/bincom.net" target="_blank">Bincom ICT Solutions</a>.</p><br><br><br>
 
 
-<h2>Authors: <a href="praisebuka.netlify.app" target='_blank'> Praisebuka </a></h2>
+<h2>Authors: <a href="/" target='_blank'> Praisebuka </a></h2>
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://praisebuka.netlify.com/)
