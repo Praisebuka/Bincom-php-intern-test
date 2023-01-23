@@ -8,6 +8,6 @@
 <p>This app was created for an online Internship test hosted by <a href="blog/bincom.net" target="_blank">Bincom ICT Solutions</a>.</p><br><br><br>
 
 
-<h2>Authors: <a href="praisebuka.netlify.app" target="_blank">Praisebuka</a></h2>
+<h2>Authors: <a href="praisebuka.netlify.app" target='_blank'> Praisebuka </a></h2>
 
 
